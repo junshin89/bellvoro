@@ -403,3 +403,46 @@ img{
 .sponsor_logo img:hover{
   filter: none;
 }
+
+.footer{
+  background-color: var(--dark-color);
+  color: var(--white-color);
+}
+
+.footer_container{
+  row-gap: 1.5rem;
+  margin-bottom: var(--mb-4);
+}
+
+.footer_title{
+  margin-bottom: var(--mb-1);
+}
+
+.footer_deal{
+  margin-bottom: var(--mb-2);
+}
+
+.footer_store{
+  width: 100px;
+}
+
+.footer_link, .footer_social{
+  color: var(--gray-color);
+}
+
+.footer_link:hover{
+  text-decoration: underline;
+}
+
+.footer_social{
+  font-size: 1.3rem;
+  margin-right: var(--mb-1);
+}
+
+.footer_copy{
+  border-top: 1px solid var(--gray-color);
+  padding-top: 3rem;
+  text-align: center;
+  color: var(--gray-color);
+  font-size: var(--small-font-size);
+}
