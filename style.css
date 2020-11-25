@@ -117,7 +117,7 @@ img{
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: var(--first-color);
+  background-color: var(--white-color);
 }
 
 .nav{
@@ -470,12 +470,13 @@ img{
   }
 
   .nav_item{
-    margin-left: var(--mb-4);
+    margin-left: var(--mb-2);
+    margin-right: var(--mb-2);
     margin-bottom: 0;
   }
 
   .nav_toggle{
-    display: none;
+    display: none !important;
   }
 
   .home_container{
@@ -545,4 +546,9 @@ img{
   .home_image{
     right: 15%;
   }
+}
+
+
+*{
+ border: solid red; 
 }
